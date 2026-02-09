@@ -236,17 +236,22 @@ export default defineComponent({
               />,
             ]
           ) : (
-            <TPanelContent
-              key="start"
-              partial={props.activeIndex ? 'end' : 'start'}
-              year={props.activeIndex ? props.year[1] : props.year[0]}
-              month={props.activeIndex ? props.month[1] : props.month[0]}
-              time={props.activeIndex ? props.time[1] : props.time[0]}
-              value={props.value}
-              tableData={props.activeIndex ? endTableData.value : startTableData.value}
-              range={props.activeIndex ? rangeValue.value.end : rangeValue.value.start}
-              {...panelContentProps.value}
-            />
+            <div style={{ width: '100%' }}>
+              <div class={`${COMPONENT_NAME.value}-time-selected-title`}>
+                {props.activeIndex ? '选择结束时间' : '选择开始时间'}
+              </div>
+              <TPanelContent
+                key="start"
+                partial={props.activeIndex ? 'end' : 'start'}
+                year={props.activeIndex ? props.year[1] : props.year[0]}
+                month={props.activeIndex ? props.month[1] : props.month[0]}
+                time={props.activeIndex ? props.time[1] : props.time[0]}
+                value={props.value}
+                tableData={props.activeIndex ? endTableData.value : startTableData.value}
+                range={props.activeIndex ? rangeValue.value.end : rangeValue.value.start}
+                {...panelContentProps.value}
+              />
+            </div>
           )}
         </div>
         {['bottom', 'right'].includes(props.presetsPlacement) ? (
