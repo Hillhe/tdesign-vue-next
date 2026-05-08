@@ -1,0 +1,607 @@
+{
+    "messages": [
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_cc12ac1e-1a6f-4f5b-9a8b-0f4354d2edcc",
+            "type": "message",
+            "role": "user",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "我的桌面images下第3张图片是什么？"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "msg_34ae98d4-d8ed-40d4-a2a9-bc612a4cdeec",
+                "original_name": "user",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_bc9df8f3-cdfd-4483-8ad5-0ce4e63c3018",
+            "type": "reasoning",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "用户想知道桌面 images 文件夹下的第 3 张图片是什么。我需要先找到这个文件夹并列出其中的图片文件。\n\n让我使用 glob_search 来查找桌面 images 文件夹下的图片文件。\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "Gn7vNPS6bBFW8k2P2ahMpD",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_7eb263e6-9dd1-49f2-9243-26200b43408b",
+            "type": "message",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "\n\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "Gn7vNPS6bBFW8k2P2ahMpD",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_f6438e64-782f-460a-8cb8-1351310d26cc",
+            "type": "plugin_call",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_090f2aaf8ab64c908dd4f10d",
+                        "name": "glob_search",
+                        "arguments": "{\"path\": \"C:/Users/15686/Desktop/images\", \"pattern\": \"*\"}"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "Gn7vNPS6bBFW8k2P2ahMpD",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_4e51be0a-eeff-418a-be6e-2ae517deebeb",
+            "type": "plugin_call_output",
+            "role": "system",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_090f2aaf8ab64c908dd4f10d",
+                        "name": "glob_search",
+                        "output": "[{\"type\": \"text\", \"text\": \"10,314ebfa30832fa.jfif\\n148928.Jpeg\\n170105.Jpeg\\n170109.Jpeg\\n19509.Jpeg\\n25,1b5311e0499b4e.jpg\\n293224,04f162b7c488bfb6.jfif\\n293225,05071d8a8318dd7e.jfif\\n2af8ee5cbedf4671ab62b15eee0b115f.jpg\\n2db3ba2531aa420eb4ec738e14df0d04.jpg\\n31859.jpg\\n4782432363b64646871d7ef56664a755.jpg\\n52,010024329f0d9552.jpg\\n55,28298cb98a71d8.jfif\\n6.ts\\n7.ps\\n776.jpg\\n78ff33db41c54051940489b4f525f2c8.jpg\\n98128.Jpeg\\n9af4f7fc4e594747807099aaa56ccf39.jpg\\naaa.jpg\\nbinary.jfif\\nc8db49456bc049bbbf2c47d54a8b3e73.jpg\\ncar2.png\\nche.png\\nchec.jfif\\nd28d9834202e47b7b0e00b7a8a6421b8-0-.jpg\\ndd.png\\nface.5b78b569012015c404dd.png\\nface.png\\nff.jpg\\ngoole.png\\nkzf.jpg\\nln.jpg\\nlogo.png\\nmx.png\\nrt.jfif\\nt_n083.Jpeg\\nvideo/\\nwpt.jpg\\n下载.png\\n人.jpg\\n孙女三_612427199406071860.jpg\\n孙女二_612427199304080950.jpg\\n孙女女_612427199304080950.jpg\\n微信图片_20230619093708.jpg\\n微信图片_20230630144341.jpg\\n微信图片_20231204202417.jpg\\n微信图片_20250219230010_35_513.jpg\\n微信图片_20260121174309_142_21.png\\n微信截图_20230616161529.png\\n微信截图_20230722185854.png\\n微信截图_20231220202848.png\\n微信截图_20240222155648.png\\n微信截图_20240223165027.png\"}]"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "o7c8RK2TYUuvmCku2oorep",
+                "original_name": "system",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_83efc81f-c2dc-4267-a6c0-0f1431d89a23",
+            "type": "reasoning",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "好的，我现在需要处理用户的问题，确定桌面images文件夹下的第三张图片是什么。首先，我已经通过glob_search获取了该目录下的所有文件列表。接下来，我需要正确排序这些文件，并找出第三张图片。\n\n首先，我需要排除非图片文件，比如目录（如video/）和其他类型的文件（如6.ts、7.ps）。然后，剩下的图片文件需要按照文件名排序。通常，文件排序是按字母顺序或数字顺序进行的。但这里文件名的格式比较复杂，有数字、字母、特殊字符等。例如，文件名中有像\"10,314ebfa30832fa.jfif\"这样的，还有\"148928.Jpeg\"、\"170105.Jpeg\"等。\n\n我需要确定排序的规则。在Windows系统中，文件排序通常是按字母顺序，不区分大小写，但数字部分可能按字符串排序而不是数值排序。例如，\"10\"会排在\"148928\"前面，因为字符串比较是逐字符的，'1'相同，第二个字符'0'比'4'小。所以正确的顺序应该是：\n\n1. 10,314ebfa30832fa.jfif\n2. 148928.Jpeg\n3. 170105.Jpeg\n4. 170109.Jpeg\n5. 19509.Jpeg\n6. 25,1b5311e0499b4e.jpg\n... 依此类推。\n\n但用户问的是第三张图片，所以需要确认排序是否正确。可能用户期望的是按文件名排序后的第三个文件。根据上面的列表，第三个应该是170105.Jpeg。但需要确认是否有其他排序方式，比如按文件创建时间或修改时间。不过，用户没有指定，所以默认按文件名排序。\n\n另外，需要注意文件扩展名的大小写，比如.Jpeg和.jpg，但排序时不区分大小写，所以可能影响顺序。例如，148928.Jpeg中的.Jpeg在排序时会被视为jpeg，所以可能排在前面。\n\n现在，根据glob_search返回的列表，文件是按字母顺序排列的吗？让我再仔细看一下返回的文件列表：\n\n返回的文件列表是：\n\n10,314ebfa30832fa.jfif\n148928.Jpeg\n170105.Jpeg\n170109.Jpeg\n19509.Jpeg\n25,1b5311e0499b4e.jpg\n293224,04f162b7c488bfb6.jfif\n293225,05071d8a8318dd7e.jfif\n2af8ee5cbedf4671ab62b15eee0b115f.jpg\n2db3ba2531aa420eb4ec738e14df0d04.jpg\n31859.jpg\n4782432363b64646871d7ef56664a755.jpg\n52,010024329f0d9552.jpg\n55,28298cb98a71d8.jfif\n6.ts\n7.ps\n776.jpg\n78ff33db41c54051940489b4f525f2c8.jpg\n98128.Jpeg\n9af4f7fc4e594747807099aaa56ccf39.jpg\naaa.jpg\nbinary.jfif\nc8db49456bc049bbbf2c47d54a8b3e73.jpg\ncar2.png\nche.png\nchec.jfif\nd28d9834202e47b7b0e00b7a8a6421b8-0-.jpg\ndd.png\nface.5b78b569012015c404dd.png\nface.png\nff.jpg\ngoole.png\nkzf.jpg\nln.jpg\nlogo.png\nmx.png\nrt.jfif\nt_n083.Jpeg\nvideo/\nwpt.jpg\n下载.png\n人.jpg\n孙女三_612427199406071860.jpg\n孙女二_612427199304080950.jpg\n孙女女_612427199304080950.jpg\n微信图片_20230619093708.jpg\n微信图片_20230630144341.jpg\n微信图片_20231204202417.jpg\n微信图片_20250219230010_35_513.jpg\n微信图片_20260121174309_142_21.png\n微信截图_20230616161529.png\n微信截图_20230722185854.png\n微信截图_20231220202848.png\n微信截图_20240222155648.png\n微信截图_20240223165027.png\n\n这里需要注意的是，返回的列表可能已经是按字母顺序排序的，但需要确认。例如，第一个文件是10,314ebfa30832fa.jfif，第二个是148928.Jpeg，第三个是170105.Jpeg，依此类推。因此，第三张图片应该是170105.Jpeg。\n\n但需要排除非图片文件，比如6.ts、7.ps和video/目录。在列表中，6.ts和7.ps出现在第15和16位，而video/目录在第43位。因此，在排序时，这些非图片文件会被排除，所以前三个图片文件是10,314ebfa30832fa.jfif、148928.Jpeg、170105.Jpeg。因此，第三张图片是170105.Jpeg。\n\n不过，需要确认用户是否将目录视为文件，但通常目录不会被算作图片，所以排除video/目录。因此，正确的第三张图片是170105.Jpeg。\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "TeX9opHRYDanhvD6LG46A4",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_acd5ccf5-cd2e-4556-a9a6-f794b911881e",
+            "type": "message",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "\n\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "TeX9opHRYDanhvD6LG46A4",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_37ded4a1-d34d-42fd-8d09-5ba6646046f5",
+            "type": "plugin_call",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_c39cbc8bdf244a4e917f4706",
+                        "name": "execute_shell_command",
+                        "arguments": "{\"command\": \"dir /b \\\"C:\\\\Users\\\\15686\\\\Desktop\\\\images\\\" | findstr /v /i \\\".ts .ps\\\" | findstr /v /i \\\"video\\\" | findstr /i \\\".jpg .jpeg .jfif .png .gif .bmp .webp\\\" | sort /gen\"}"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "TeX9opHRYDanhvD6LG46A4",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_665ec2e4-2b16-4019-b09d-ffc53592a3ef",
+            "type": "plugin_call_output",
+            "role": "system",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_c39cbc8bdf244a4e917f4706",
+                        "name": "execute_shell_command",
+                        "output": "[{\"type\": \"text\", \"text\": \"Command failed with exit code 1.\\n[stderr]\\n无效命令行开关。\\r\\r\\n\\r\"}]"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "Ez7ykyeXzXBRNZYMVpic4H",
+                "original_name": "system",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_8aac7dc2-d9b5-4888-b5f8-30fb508dbe58",
+            "type": "message",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "\n\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "UnHFKct2Ldrp87Hcp4XqZc",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_0c461ba4-a64c-47b1-af23-24a90389160a",
+            "type": "plugin_call",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_e0b7ca0fd9d549db9cfc59a3",
+                        "name": "execute_shell_command",
+                        "arguments": "{\"command\": \"dir /b /on \\\"C:\\\\Users\\\\15686\\\\Desktop\\\\images\\\"\"}"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "UnHFKct2Ldrp87Hcp4XqZc",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_654df9eb-8642-4443-9960-1b9282bf21b1",
+            "type": "plugin_call_output",
+            "role": "system",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_e0b7ca0fd9d549db9cfc59a3",
+                        "name": "execute_shell_command",
+                        "output": "[{\"type\": \"text\", \"text\": \"10,314ebfa30832fa.jfif\\r\\n148928.Jpeg\\r\\n170105.Jpeg\\r\\n170109.Jpeg\\r\\n19509.Jpeg\\r\\n25,1b5311e0499b4e.jpg\\r\\n293224,04f162b7c488bfb6.jfif\\r\\n293225,05071d8a8318dd7e.jfif\\r\\n2af8ee5cbedf4671ab62b15eee0b115f.jpg\\r\\n2db3ba2531aa420eb4ec738e14df0d04.jpg\\r\\n31859.jpg\\r\\n4782432363b64646871d7ef56664a755.jpg\\r\\n52,010024329f0d9552.jpg\\r\\n55,28298cb98a71d8.jfif\\r\\n6.ts\\r\\n7.ps\\r\\n776.jpg\\r\\n78ff33db41c54051940489b4f525f2c8.jpg\\r\\n98128.Jpeg\\r\\n9af4f7fc4e594747807099aaa56ccf39.jpg\\r\\naaa.jpg\\r\\nbinary.jfif\\r\\nc8db49456bc049bbbf2c47d54a8b3e73.jpg\\r\\ncar2.png\\r\\nche.png\\r\\nchec.jfif\\r\\nd28d9834202e47b7b0e00b7a8a6421b8-0-.jpg\\r\\ndd.png\\r\\nface.5b78b569012015c404dd.png\\r\\nface.png\\r\\nff.jpg\\r\\ngoole.png\\r\\nkzf.jpg\\r\\nln.jpg\\r\\nlogo.png\\r\\nmx.png\\r\\nrt.jfif\\r\\nt_n083.Jpeg\\r\\nvideo\\r\\nwpt.jpg\\r\\n人.jpg\\r\\n孙女二_612427199304080950.jpg\\r\\n孙女女_612427199304080950.jpg\\r\\n孙女三_612427199406071860.jpg\\r\\n微信截图_20230616161529.png\\r\\n微信截图_20230722185854.png\\r\\n微信截图_20231220202848.png\\r\\n微信截图_20240222155648.png\\r\\n微信截图_20240223165027.png\\r\\n微信图片_20230619093708.jpg\\r\\n微信图片_20230630144341.jpg\\r\\n微信图片_20231204202417.jpg\\r\\n微信图片_20250219230010_35_513.jpg\\r\\n微信图片_20260121174309_142_21.png\\r\\n下载.png\\r\"}]"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "nqBUrDScEbD7r6XXTJZqpU",
+                "original_name": "system",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_98fd774d-8f6f-4c7d-94b7-282bc8ec822f",
+            "type": "message",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "\n\n按文件名排序后，第 3 张图片是：**170105.Jpeg**\n\n让我为您查看这张图片：\n\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "oHj5ihGrXCEifpAYEX4Y5s",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_1cf6c043-5f4d-420a-9797-a29e42878df3",
+            "type": "plugin_call",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_cd5bbaf842564fb2995be91c",
+                        "name": "view_image",
+                        "arguments": "{\"image_path\": \"C:\\\\Users\\\\15686\\\\Desktop\\\\images\\\\170105.Jpeg\"}"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "oHj5ihGrXCEifpAYEX4Y5s",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "created",
+            "error": null,
+            "id": "msg_bb9a071f-28f6-4e0c-92c3-7975ab411a1b",
+            "type": "message",
+            "role": "system",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "image",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "image_url": "/C:\\Users\\15686\\Desktop\\images\\170105.Jpeg"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "ira4DcwG8DhwqBYPFw9NA2",
+                "original_name": "system",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_a653c1e0-e191-4d85-8bde-13a2bec558d7",
+            "type": "plugin_call_output",
+            "role": "system",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "data",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "data": {
+                        "call_id": "call_cd5bbaf842564fb2995be91c",
+                        "name": "view_image",
+                        "output": "[{\"type\": \"image\", \"source\": {\"type\": \"url\", \"url\": \"C:\\\\Users\\\\15686\\\\Desktop\\\\images\\\\170105.Jpeg\"}}, {\"type\": \"text\", \"text\": \"Image loaded: 170105.Jpeg\"}]"
+                    }
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "ira4DcwG8DhwqBYPFw9NA2",
+                "original_name": "system",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_ed00e6d4-d425-4ac9-8a1a-d0ca34bb27ef",
+            "type": "reasoning",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "图片已经加载成功了，我看到这是一张人物照片。现在我可以告诉用户第 3 张图片是什么了。\n"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "NBHx7UsokYFcNyHcAm7LJq",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_d7134ceb-f879-4b27-82ed-f29b728a686b",
+            "type": "message",
+            "role": "assistant",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "\n\n您的桌面 images 文件夹下第 3 张图片是 **170105.Jpeg**。\n\n这是一张人物照片，显示一位穿着深色衣服的中年女性。"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "NBHx7UsokYFcNyHcAm7LJq",
+                "original_name": "Friday",
+                "metadata": {}
+            }
+        },
+        {
+            "sequence_number": null,
+            "object": "message",
+            "status": "completed",
+            "error": null,
+            "id": "msg_6eb8f29b-30bc-4d88-9b95-ba9bc76cf63e",
+            "type": "message",
+            "role": "user",
+            "content": [
+                {
+                    "sequence_number": null,
+                    "object": "content",
+                    "status": null,
+                    "error": null,
+                    "type": "text",
+                    "index": null,
+                    "delta": false,
+                    "msg_id": null,
+                    "text": "重命名为aaa.png"
+                }
+            ],
+            "code": null,
+            "message": null,
+            "usage": null,
+            "metadata": {
+                "original_id": "msg_758c5aef-08fd-4a70-9e8f-8223cd33093a",
+                "original_name": "user",
+                "metadata": {}
+            }
+        }
+    ],
+    "status": "running"
+}

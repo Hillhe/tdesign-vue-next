@@ -1,0 +1,714 @@
+data: {"sequence_number":0,"object":"response","status":"created","error":null,"id":"response_d95fca82-78f0-4c9f-ad53-a7a9613ce6c9","created_at":1778224790,"completed_at":null,"output":null,"usage":null,"session_id":"2052650894602371073"}
+
+data: {"sequence_number":1,"object":"response","status":"in_progress","error":null,"id":"response_d95fca82-78f0-4c9f-ad53-a7a9613ce6c9","created_at":1778224790,"completed_at":null,"output":null,"usage":null,"session_id":"2052650894602371073"}
+
+data: {"sequence_number":2,"object":"message","status":"in_progress","error":null,"id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","type":"reasoning","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":3,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"用户"}
+
+data: {"sequence_number":4,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"想要"}
+
+data: {"sequence_number":5,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"查看"}
+
+data: {"sequence_number":6,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"桌"}
+
+data: {"sequence_number":7,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"面的"}
+
+data: {"sequence_number":8,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"截图"}
+
+data: {"sequence_number":9,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"，"}
+
+data: {"sequence_number":10,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"我"}
+
+data: {"sequence_number":11,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"需要使用"}
+
+data: {"sequence_number":12,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":" desktop"}
+
+data: {"sequence_number":13,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"_s"}
+
+data: {"sequence_number":14,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"creenshot"}
+
+data: {"sequence_number":15,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":" "}
+
+data: {"sequence_number":16,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"工具"}
+
+data: {"sequence_number":17,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"来"}
+
+data: {"sequence_number":18,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"截取"}
+
+data: {"sequence_number":19,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"整个"}
+
+data: {"sequence_number":20,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"桌面"}
+
+data: {"sequence_number":21,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"。"}
+
+data: {"sequence_number":22,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"\n"}
+
+data: {"sequence_number":23,"object":"message","status":"in_progress","error":null,"id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","type":"message","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":24,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","text":"\n\n"}
+
+data: {"sequence_number":25,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"用户想要查看桌面的截图，我需要使用 desktop_screenshot 工具来截取整个桌面。\n"}
+
+data: {"sequence_number":26,"object":"message","status":"completed","error":null,"id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","type":"reasoning","role":"assistant","content":[{"sequence_number":25,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"用户想要查看桌面的截图，我需要使用 desktop_screenshot 工具来截取整个桌面。\n"}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":27,"object":"message","status":"completed","error":null,"id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","text":"\n\n"},{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":1,"delta":null,"msg_id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","text":""}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":28,"object":"message","status":"in_progress","error":null,"id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","type":"plugin_call","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":29,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":""}}
+
+data: {"sequence_number":30,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":31,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":32,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":33,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":34,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":35,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{}"}}
+
+data: {"sequence_number":36,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{\"path\": \"desktop_screenshot.png\"}"}}
+
+data: {"sequence_number":37,"object":"content","status":"completed","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{\"path\": \"desktop_screenshot.png\"}"}}
+
+data: {"sequence_number":38,"object":"message","status":"completed","error":null,"id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","type":"plugin_call","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{\"path\": \"desktop_screenshot.png\"}"}}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":39,"object":"message","status":"in_progress","error":null,"id":"msg_53d6eac2-f4f1-4827-9ed5-22ac15292a22","type":"plugin_call_output","role":"tool","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":40,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_53d6eac2-f4f1-4827-9ed5-22ac15292a22","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","output":""}}
+
+data: {"sequence_number":41,"object":"content","status":"completed","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_53d6eac2-f4f1-4827-9ed5-22ac15292a22","data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","output":"[{\"type\": \"text\", \"text\": \"{\\n  \\\"ok\\\": true,\\n  \\\"path\\\": \\\"E:\\\\\\\\agent\\\\\\\\ai-chat-web\\\\\\\\packages\\\\\\\\electron\\\\\\\\resources\\\\\\\\zxxypaw\\\\\\\\desktop_screenshot.png\\\",\\n  \\\"message\\\": \\\"Desktop screenshot saved to desktop_screenshot.png\\\"\\n}\"}]"}}
+
+data: {"sequence_number":42,"object":"message","status":"completed","error":null,"id":"msg_53d6eac2-f4f1-4827-9ed5-22ac15292a22","type":"plugin_call_output","role":"tool","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","output":"[{\"type\": \"text\", \"text\": \"{\\n  \\\"ok\\\": true,\\n  \\\"path\\\": \\\"E:\\\\\\\\agent\\\\\\\\ai-chat-web\\\\\\\\packages\\\\\\\\electron\\\\\\\\resources\\\\\\\\zxxypaw\\\\\\\\desktop_screenshot.png\\\",\\n  \\\"message\\\": \\\"Desktop screenshot saved to desktop_screenshot.png\\\"\\n}\"}]"}}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":43,"object":"message","status":"in_progress","error":null,"id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","type":"message","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":44,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","text":"\n\n"}
+
+data: {"sequence_number":45,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","text":"\n\n"}
+
+data: {"sequence_number":46,"object":"message","status":"completed","error":null,"id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","type":"message","role":"assistant","content":[{"sequence_number":45,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","text":"\n\n"}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":47,"object":"message","status":"in_progress","error":null,"id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","type":"plugin_call","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":48,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":""}}
+
+data: {"sequence_number":49,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":50,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":51,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":52,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":53,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":54,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{}"}}
+
+data: {"sequence_number":55,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{\"image_path\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}"}}
+
+data: {"sequence_number":56,"object":"content","status":"completed","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{\"image_path\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}"}}
+
+data: {"sequence_number":57,"object":"message","status":"completed","error":null,"id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","type":"plugin_call","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{\"image_path\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}"}}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":58,"object":"message","status":"in_progress","error":null,"id":"msg_0d2d2532-5c40-4093-b847-b7ce45653eb9","type":"plugin_call_output","role":"tool","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":59,"object":"content","status":"in_progress","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_0d2d2532-5c40-4093-b847-b7ce45653eb9","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","output":""}}
+
+data: {"sequence_number":60,"object":"content","status":"completed","error":null,"type":"data","index":0,"delta":false,"msg_id":"msg_0d2d2532-5c40-4093-b847-b7ce45653eb9","data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","output":"[{\"type\": \"image\", \"source\": {\"type\": \"url\", \"url\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}}, {\"type\": \"text\", \"text\": \"Image loaded: desktop_screenshot.png\"}]"}}
+
+data: {"sequence_number":61,"object":"message","status":"completed","error":null,"id":"msg_0d2d2532-5c40-4093-b847-b7ce45653eb9","type":"plugin_call_output","role":"tool","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","output":"[{\"type\": \"image\", \"source\": {\"type\": \"url\", \"url\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}}, {\"type\": \"text\", \"text\": \"Image loaded: desktop_screenshot.png\"}]"}}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":null,"object":"message","status":"created","error":null,"id":"msg_88af26d0-ea20-4cf4-977c-354a3a20f9f1","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"image","index":null,"delta":false,"msg_id":null,"image_url":"E:\\agent\\ai-chat-web\\packages\\electron\\resources\\zxxypaw\\desktop_screenshot.png"}],"code":null,"message":null,"usage":null,"metadata":null}
+
+data: {"sequence_number":62,"object":"message","status":"in_progress","error":null,"id":"msg_94451f95-475c-47f8-b395-430469bcfc71","type":"reasoning","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":63,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图"}
+
+data: {"sequence_number":64,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"已经"}
+
+data: {"sequence_number":65,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"成功"}
+
+data: {"sequence_number":66,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"捕获"}
+
+data: {"sequence_number":67,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"并"}
+
+data: {"sequence_number":68,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"显示了"}
+
+data: {"sequence_number":69,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"。"}
+
+data: {"sequence_number":70,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"从"}
+
+data: {"sequence_number":71,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截"}
+
+data: {"sequence_number":72,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"图中"}
+
+data: {"sequence_number":73,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"可以看到"}
+
+data: {"sequence_number":74,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":75,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"用户的"}
+
+data: {"sequence_number":76,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"屏幕"}
+
+data: {"sequence_number":77,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"主要"}
+
+data: {"sequence_number":78,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"显示"}
+
+data: {"sequence_number":79,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"的是"}
+
+data: {"sequence_number":80,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\""}
+
+data: {"sequence_number":81,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"星"}
+
+data: {"sequence_number":82,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"元"}
+
+data: {"sequence_number":83,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"智能"}
+
+data: {"sequence_number":84,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"体"}
+
+data: {"sequence_number":85,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\""}
+
+data: {"sequence_number":86,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"应用程序"}
+
+data: {"sequence_number":87,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"界面"}
+
+data: {"sequence_number":88,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":89,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"底部"}
+
+data: {"sequence_number":90,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"有"}
+
+data: {"sequence_number":91,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"浏览器"}
+
+data: {"sequence_number":92,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"开发者"}
+
+data: {"sequence_number":93,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"工具"}
+
+data: {"sequence_number":94,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"的控制"}
+
+data: {"sequence_number":95,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"台"}
+
+data: {"sequence_number":96,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"窗口"}
+
+data: {"sequence_number":97,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":98,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"以及"}
+
+data: {"sequence_number":99,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" Windows"}
+
+data: {"sequence_number":100,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":101,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"任务"}
+
+data: {"sequence_number":102,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"栏"}
+
+data: {"sequence_number":103,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"。"}
+
+data: {"sequence_number":104,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n\n"}
+
+data: {"sequence_number":105,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图"}
+
+data: {"sequence_number":106,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"显示"}
+
+data: {"sequence_number":107,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"的内容"}
+
+data: {"sequence_number":108,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"包括"}
+
+data: {"sequence_number":109,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"："}
+
+data: {"sequence_number":110,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n"}
+
+data: {"sequence_number":111,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"1"}
+
+data: {"sequence_number":112,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"."}
+
+data: {"sequence_number":113,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":114,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"星"}
+
+data: {"sequence_number":115,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"元"}
+
+data: {"sequence_number":116,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"智能"}
+
+data: {"sequence_number":117,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"体"}
+
+data: {"sequence_number":118,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"应用程序"}
+
+data: {"sequence_number":119,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"界面"}
+
+data: {"sequence_number":120,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"（"}
+
+data: {"sequence_number":121,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"正在"}
+
+data: {"sequence_number":122,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"显示"}
+
+data: {"sequence_number":123,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"我们的"}
+
+data: {"sequence_number":124,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"对话"}
+
+data: {"sequence_number":125,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"内容"}
+
+data: {"sequence_number":126,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"）"}
+
+data: {"sequence_number":127,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n"}
+
+data: {"sequence_number":128,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"2"}
+
+data: {"sequence_number":129,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"."}
+
+data: {"sequence_number":130,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":131,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"浏览器"}
+
+data: {"sequence_number":132,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"开发者"}
+
+data: {"sequence_number":133,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"工具"}
+
+data: {"sequence_number":134,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"的控制"}
+
+data: {"sequence_number":135,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"台"}
+
+data: {"sequence_number":136,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"窗口"}
+
+data: {"sequence_number":137,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"（"}
+
+data: {"sequence_number":138,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"在"}
+
+data: {"sequence_number":139,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"底部"}
+
+data: {"sequence_number":140,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"）"}
+
+data: {"sequence_number":141,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n"}
+
+data: {"sequence_number":142,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"3"}
+
+data: {"sequence_number":143,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"."}
+
+data: {"sequence_number":144,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" Windows"}
+
+data: {"sequence_number":145,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":146,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"任务"}
+
+data: {"sequence_number":147,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"栏"}
+
+data: {"sequence_number":148,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"（"}
+
+data: {"sequence_number":149,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"显示"}
+
+data: {"sequence_number":150,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"时间"}
+
+data: {"sequence_number":151,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":152,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"1"}
+
+data: {"sequence_number":153,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"5"}
+
+data: {"sequence_number":154,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":":"}
+
+data: {"sequence_number":155,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"2"}
+
+data: {"sequence_number":156,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"5"}
+
+data: {"sequence_number":157,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":158,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"日期"}
+
+data: {"sequence_number":159,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":160,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"2"}
+
+data: {"sequence_number":161,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"0"}
+
+data: {"sequence_number":162,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"2"}
+
+data: {"sequence_number":163,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"6"}
+
+data: {"sequence_number":164,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"/"}
+
+data: {"sequence_number":165,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"5"}
+
+data: {"sequence_number":166,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"/"}
+
+data: {"sequence_number":167,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"8"}
+
+data: {"sequence_number":168,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":169,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"天气"}
+
+data: {"sequence_number":170,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":171,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"2"}
+
+data: {"sequence_number":172,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"4"}
+
+data: {"sequence_number":173,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"°C"}
+
+data: {"sequence_number":174,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":" "}
+
+data: {"sequence_number":175,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"晴朗"}
+
+data: {"sequence_number":176,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"）"}
+
+data: {"sequence_number":177,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n\n"}
+
+data: {"sequence_number":178,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"我应该"}
+
+data: {"sequence_number":179,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"告诉"}
+
+data: {"sequence_number":180,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"用户"}
+
+data: {"sequence_number":181,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图"}
+
+data: {"sequence_number":182,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"已经"}
+
+data: {"sequence_number":183,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"完成了"}
+
+data: {"sequence_number":184,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"，"}
+
+data: {"sequence_number":185,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"并"}
+
+data: {"sequence_number":186,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"描述"}
+
+data: {"sequence_number":187,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"一下"}
+
+data: {"sequence_number":188,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图"}
+
+data: {"sequence_number":189,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"看到"}
+
+data: {"sequence_number":190,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"的内容"}
+
+data: {"sequence_number":191,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"。"}
+
+data: {"sequence_number":192,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"\n"}
+
+data: {"sequence_number":193,"object":"message","status":"in_progress","error":null,"id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","type":"message","role":"assistant","content":null,"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":194,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n"}
+
+data: {"sequence_number":195,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"截图"}
+
+data: {"sequence_number":196,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"已完成"}
+
+data: {"sequence_number":197,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"！"}
+
+data: {"sequence_number":198,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"从"}
+
+data: {"sequence_number":199,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"截"}
+
+data: {"sequence_number":200,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"图中"}
+
+data: {"sequence_number":201,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"可以看到"}
+
+data: {"sequence_number":202,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"："}
+
+data: {"sequence_number":203,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n"}
+
+data: {"sequence_number":204,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"1"}
+
+data: {"sequence_number":205,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"."}
+
+data: {"sequence_number":206,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" **"}
+
+data: {"sequence_number":207,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"主要"}
+
+data: {"sequence_number":208,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"窗口"}
+
+data: {"sequence_number":209,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"**"}
+
+data: {"sequence_number":210,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"："}
+
+data: {"sequence_number":211,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"星"}
+
+data: {"sequence_number":212,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"元"}
+
+data: {"sequence_number":213,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"智能"}
+
+data: {"sequence_number":214,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"体"}
+
+data: {"sequence_number":215,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"应用程序"}
+
+data: {"sequence_number":216,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"界面"}
+
+data: {"sequence_number":217,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":218,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"显示"}
+
+data: {"sequence_number":219,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"了我们"}
+
+data: {"sequence_number":220,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"刚才"}
+
+data: {"sequence_number":221,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"的"}
+
+data: {"sequence_number":222,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"对话"}
+
+data: {"sequence_number":223,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"内容"}
+
+data: {"sequence_number":224,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n"}
+
+data: {"sequence_number":225,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"2"}
+
+data: {"sequence_number":226,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"."}
+
+data: {"sequence_number":227,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" **"}
+
+data: {"sequence_number":228,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"底部"}
+
+data: {"sequence_number":229,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"窗口"}
+
+data: {"sequence_number":230,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"**"}
+
+data: {"sequence_number":231,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"："}
+
+data: {"sequence_number":232,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"浏览器"}
+
+data: {"sequence_number":233,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"开发者"}
+
+data: {"sequence_number":234,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"工具"}
+
+data: {"sequence_number":235,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"的控制"}
+
+data: {"sequence_number":236,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"台"}
+
+data: {"sequence_number":237,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"窗口"}
+
+data: {"sequence_number":238,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"（"}
+
+data: {"sequence_number":239,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"Console"}
+
+data: {"sequence_number":240,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":241,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"标签"}
+
+data: {"sequence_number":242,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"页"}
+
+data: {"sequence_number":243,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"）"}
+
+data: {"sequence_number":244,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n"}
+
+data: {"sequence_number":245,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"3"}
+
+data: {"sequence_number":246,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"."}
+
+data: {"sequence_number":247,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" **"}
+
+data: {"sequence_number":248,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"任务"}
+
+data: {"sequence_number":249,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"栏"}
+
+data: {"sequence_number":250,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"**"}
+
+data: {"sequence_number":251,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"："}
+
+data: {"sequence_number":252,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"Windows"}
+
+data: {"sequence_number":253,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":254,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"1"}
+
+data: {"sequence_number":255,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"1"}
+
+data: {"sequence_number":256,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":257,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"任务"}
+
+data: {"sequence_number":258,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"栏"}
+
+data: {"sequence_number":259,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":260,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"显示"}
+
+data: {"sequence_number":261,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"当前"}
+
+data: {"sequence_number":262,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"时间为"}
+
+data: {"sequence_number":263,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":264,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"1"}
+
+data: {"sequence_number":265,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"5"}
+
+data: {"sequence_number":266,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":":"}
+
+data: {"sequence_number":267,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"2"}
+
+data: {"sequence_number":268,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"5"}
+
+data: {"sequence_number":269,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":270,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"日期"}
+
+data: {"sequence_number":271,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"为"}
+
+data: {"sequence_number":272,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":273,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"2"}
+
+data: {"sequence_number":274,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"0"}
+
+data: {"sequence_number":275,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"2"}
+
+data: {"sequence_number":276,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"6"}
+
+data: {"sequence_number":277,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"/"}
+
+data: {"sequence_number":278,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"5"}
+
+data: {"sequence_number":279,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"/"}
+
+data: {"sequence_number":280,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"8"}
+
+data: {"sequence_number":281,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":282,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"天气"}
+
+data: {"sequence_number":283,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":284,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"2"}
+
+data: {"sequence_number":285,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"4"}
+
+data: {"sequence_number":286,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"°C"}
+
+data: {"sequence_number":287,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":" "}
+
+data: {"sequence_number":288,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"晴朗"}
+
+data: {"sequence_number":289,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n"}
+
+data: {"sequence_number":290,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"截图"}
+
+data: {"sequence_number":291,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"已"}
+
+data: {"sequence_number":292,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"保存到"}
+
+data: {"sequence_number":293,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"："}
+
+data: {"sequence_number":294,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"`"}
+
+data: {"sequence_number":295,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"E"}
+
+data: {"sequence_number":296,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":":\\"}
+
+data: {"sequence_number":297,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"agent"}
+
+data: {"sequence_number":298,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":299,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"ai"}
+
+data: {"sequence_number":300,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"-chat"}
+
+data: {"sequence_number":301,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"-web"}
+
+data: {"sequence_number":302,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":303,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"packages"}
+
+data: {"sequence_number":304,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":305,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"electron"}
+
+data: {"sequence_number":306,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":307,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"resources"}
+
+data: {"sequence_number":308,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":309,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"z"}
+
+data: {"sequence_number":310,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"xx"}
+
+data: {"sequence_number":311,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"yp"}
+
+data: {"sequence_number":312,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"aw"}
+
+data: {"sequence_number":313,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\\"}
+
+data: {"sequence_number":314,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"desktop"}
+
+data: {"sequence_number":315,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"_s"}
+
+data: {"sequence_number":316,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"creenshot"}
+
+data: {"sequence_number":317,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":".png"}
+
+data: {"sequence_number":318,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"`"}
+
+data: {"sequence_number":319,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n"}
+
+data: {"sequence_number":320,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"由于"}
+
+data: {"sequence_number":321,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"当前"}
+
+data: {"sequence_number":322,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"桌面"}
+
+data: {"sequence_number":323,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"被"}
+
+data: {"sequence_number":324,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"应用程序"}
+
+data: {"sequence_number":325,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"窗口"}
+
+data: {"sequence_number":326,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"遮挡"}
+
+data: {"sequence_number":327,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":328,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"所以"}
+
+data: {"sequence_number":329,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"看不到"}
+
+data: {"sequence_number":330,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"桌面上"}
+
+data: {"sequence_number":331,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"实际"}
+
+data: {"sequence_number":332,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"的文件"}
+
+data: {"sequence_number":333,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"和"}
+
+data: {"sequence_number":334,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"快捷"}
+
+data: {"sequence_number":335,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"方式"}
+
+data: {"sequence_number":336,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"。"}
+
+data: {"sequence_number":337,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"如果你想"}
+
+data: {"sequence_number":338,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"查看"}
+
+data: {"sequence_number":339,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"桌"}
+
+data: {"sequence_number":340,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"面的"}
+
+data: {"sequence_number":341,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"实际"}
+
+data: {"sequence_number":342,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"内容"}
+
+data: {"sequence_number":343,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"，"}
+
+data: {"sequence_number":344,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"可以"}
+
+data: {"sequence_number":345,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"最小"}
+
+data: {"sequence_number":346,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"化"}
+
+data: {"sequence_number":347,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"所有"}
+
+data: {"sequence_number":348,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"窗口"}
+
+data: {"sequence_number":349,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"后再"}
+
+data: {"sequence_number":350,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"截图"}
+
+data: {"sequence_number":351,"object":"content","status":"in_progress","error":null,"type":"text","index":0,"delta":true,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"。"}
+
+data: {"sequence_number":352,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图已经成功捕获并显示了。从截图中可以看到，用户的屏幕主要显示的是\"星元智能体\"应用程序界面，底部有浏览器开发者工具的控制台窗口，以及 Windows 任务栏。\n\n截图显示的内容包括：\n1. 星元智能体应用程序界面（正在显示我们的对话内容）\n2. 浏览器开发者工具的控制台窗口（在底部）\n3. Windows 任务栏（显示时间 15:25，日期 2026/5/8，天气 24°C 晴朗）\n\n我应该告诉用户截图已经完成了，并描述一下截图看到的内容。\n"}
+
+data: {"sequence_number":353,"object":"message","status":"completed","error":null,"id":"msg_94451f95-475c-47f8-b395-430469bcfc71","type":"reasoning","role":"assistant","content":[{"sequence_number":352,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图已经成功捕获并显示了。从截图中可以看到，用户的屏幕主要显示的是\"星元智能体\"应用程序界面，底部有浏览器开发者工具的控制台窗口，以及 Windows 任务栏。\n\n截图显示的内容包括：\n1. 星元智能体应用程序界面（正在显示我们的对话内容）\n2. 浏览器开发者工具的控制台窗口（在底部）\n3. Windows 任务栏（显示时间 15:25，日期 2026/5/8，天气 24°C 晴朗）\n\n我应该告诉用户截图已经完成了，并描述一下截图看到的内容。\n"}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":354,"object":"message","status":"completed","error":null,"id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n截图已完成！从截图中可以看到：\n\n1. **主要窗口**：星元智能体应用程序界面，显示了我们刚才的对话内容\n2. **底部窗口**：浏览器开发者工具的控制台窗口（Console 标签页）\n3. **任务栏**：Windows 11 任务栏，显示当前时间为 15:25，日期为 2026/5/8，天气 24°C 晴朗\n\n截图已保存到：`E:\\agent\\ai-chat-web\\packages\\electron\\resources\\zxxypaw\\desktop_screenshot.png`\n\n由于当前桌面被应用程序窗口遮挡，所以看不到桌面上实际的文件和快捷方式。如果你想查看桌面的实际内容，可以最小化所有窗口后再截图。"},{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":1,"delta":null,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":""}],"code":null,"message":null,"usage":null,"metadata":{}}
+
+data: {"sequence_number":355,"object":"response","status":"completed","error":null,"id":"response_d95fca82-78f0-4c9f-ad53-a7a9613ce6c9","created_at":1778224790,"completed_at":1778225112,"output":[{"sequence_number":26,"object":"message","status":"completed","error":null,"id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","type":"reasoning","role":"assistant","content":[{"sequence_number":25,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_655033f4-fa1a-4bc3-be89-18d9d15f8b68","text":"用户想要查看桌面的截图，我需要使用 desktop_screenshot 工具来截取整个桌面。\n"}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":27,"object":"message","status":"completed","error":null,"id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","text":"\n\n"},{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":1,"delta":null,"msg_id":"msg_afd5ae3d-ecd9-4f31-a24d-5fc7c8ad8d80","text":""}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":38,"object":"message","status":"completed","error":null,"id":"msg_387c6570-05a1-4c17-8c7c-be1cb45b72d7","type":"plugin_call","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","arguments":"{\"path\": \"desktop_screenshot.png\"}"}}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":42,"object":"message","status":"completed","error":null,"id":"msg_53d6eac2-f4f1-4827-9ed5-22ac15292a22","type":"plugin_call_output","role":"tool","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_834093f5dc9a4684862aaf6d","name":"desktop_screenshot","output":"[{\"type\": \"text\", \"text\": \"{\\n  \\\"ok\\\": true,\\n  \\\"path\\\": \\\"E:\\\\\\\\agent\\\\\\\\ai-chat-web\\\\\\\\packages\\\\\\\\electron\\\\\\\\resources\\\\\\\\zxxypaw\\\\\\\\desktop_screenshot.png\\\",\\n  \\\"message\\\": \\\"Desktop screenshot saved to desktop_screenshot.png\\\"\\n}\"}]"}}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":46,"object":"message","status":"completed","error":null,"id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","type":"message","role":"assistant","content":[{"sequence_number":45,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_f41b1756-5bfa-4862-bf7a-640f03289e68","text":"\n\n"}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":57,"object":"message","status":"completed","error":null,"id":"msg_17c141e7-da2b-4f96-b48e-c0b66aaf00b0","type":"plugin_call","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","arguments":"{\"image_path\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}"}}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":61,"object":"message","status":"completed","error":null,"id":"msg_0d2d2532-5c40-4093-b847-b7ce45653eb9","type":"plugin_call_output","role":"tool","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"data","index":null,"delta":false,"msg_id":null,"data":{"call_id":"call_6af9ee622e084674a89193d5","name":"view_image","output":"[{\"type\": \"image\", \"source\": {\"type\": \"url\", \"url\": \"E:\\\\agent\\\\ai-chat-web\\\\packages\\\\electron\\\\resources\\\\zxxypaw\\\\desktop_screenshot.png\"}}, {\"type\": \"text\", \"text\": \"Image loaded: desktop_screenshot.png\"}]"}}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":null,"object":"message","status":"created","error":null,"id":"msg_71da767d-a48f-477f-9a79-388bca8acbf7","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"image","index":null,"delta":false,"msg_id":null,"image_url":"E:\\agent\\ai-chat-web\\packages\\electron\\resources\\zxxypaw\\desktop_screenshot.png"}],"code":null,"message":null,"usage":null,"metadata":null},{"sequence_number":353,"object":"message","status":"completed","error":null,"id":"msg_94451f95-475c-47f8-b395-430469bcfc71","type":"reasoning","role":"assistant","content":[{"sequence_number":352,"object":"content","status":"completed","error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_94451f95-475c-47f8-b395-430469bcfc71","text":"截图已经成功捕获并显示了。从截图中可以看到，用户的屏幕主要显示的是\"星元智能体\"应用程序界面，底部有浏览器开发者工具的控制台窗口，以及 Windows 任务栏。\n\n截图显示的内容包括：\n1. 星元智能体应用程序界面（正在显示我们的对话内容）\n2. 浏览器开发者工具的控制台窗口（在底部）\n3. Windows 任务栏（显示时间 15:25，日期 2026/5/8，天气 24°C 晴朗）\n\n我应该告诉用户截图已经完成了，并描述一下截图看到的内容。\n"}],"code":null,"message":null,"usage":null,"metadata":{}},{"sequence_number":354,"object":"message","status":"completed","error":null,"id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","type":"message","role":"assistant","content":[{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":0,"delta":null,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":"\n\n截图已完成！从截图中可以看到：\n\n1. **主要窗口**：星元智能体应用程序界面，显示了我们刚才的对话内容\n2. **底部窗口**：浏览器开发者工具的控制台窗口（Console 标签页）\n3. **任务栏**：Windows 11 任务栏，显示当前时间为 15:25，日期为 2026/5/8，天气 24°C 晴朗\n\n截图已保存到：`E:\\agent\\ai-chat-web\\packages\\electron\\resources\\zxxypaw\\desktop_screenshot.png`\n\n由于当前桌面被应用程序窗口遮挡，所以看不到桌面上实际的文件和快捷方式。如果你想查看桌面的实际内容，可以最小化所有窗口后再截图。"},{"sequence_number":null,"object":"content","status":null,"error":null,"type":"text","index":1,"delta":null,"msg_id":"msg_db3ae621-2a0b-466f-bf65-ee99c82e4979","text":""}],"code":null,"message":null,"usage":null,"metadata":{}}],"usage":{"provider_id":"2049020050335268866","model_name":"Qwen3.5-27b-GPTQ-Int4","prompt_tokens":14267,"completion_tokens":290,"total_tokens":14557},"session_id":"2052650894602371073"}
+

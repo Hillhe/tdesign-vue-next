@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 598px; margin-top: 12px; display: flex; flex-direction: column">
+  <div style="height: 888px; margin-top: 12px; display: flex; flex-direction: column">
     <t-chat-list :clear-history="false" style="flex: 1">
       <t-chat-message
         v-for="message in messages"
@@ -9,11 +9,12 @@
         :variant="message.role === 'user' ? 'base' : 'text'"
         :avatar="message.role === 'user' ? 'https://tdesign.gtimg.com/site/avatar.jpg' : undefined"
         allow-content-segment-custom
+        :chat-content-props="{
+          thinking: { maxHeight: 200, collapsed: true },
+        }"
       >
         <template v-for="(item, index) in message.content" :key="index">
           <div v-if="item.type === 'imageview'" :slot="`${item.type}-${index}`">
-            <!-- {{ item.data }} -->
-            <!-- 图片预览组件 -->
             <template v-if="item.data?.length === 0 || item.data?.every((img) => img.url === undefined)">
               <t-skeleton style="width: 600px; margin: 14px 0" theme="paragraph" animation="gradient" />
             </template>
@@ -35,6 +36,13 @@
                 </template>
               </t-image-viewer>
             </t-space>
+          </div>
+          <div v-else-if="item.type.includes('_call')" :slot="`${item.type}-${index}`">
+            <p>工具：({{ item.data?.toolCallName || item.data?.toolName || item.data?.name }})</p>
+            <p>参数:({{ item.data?.argsText || item.data?.arguments || item.data?.args || '-' }})</p>
+            <p :style="{ width: '200px' }">
+              结果：{{ item.data?.result || item.data?.output || item.data?.text || '-' }}
+            </p>
           </div>
         </template>
 
@@ -120,6 +128,9 @@ import {
   HeartIcon,
   SoundIcon,
 } from 'tdesign-icons-vue-next';
+import mockData from './angent-scope/his.json';
+import { fromAgentScopeHistoryToChatMessages } from './angent-scope/translate-his.js';
+import { fromAgentScopeSSEChunkToChatContent } from './angent-scope/translate-sse.js';
 
 /**
  * 自定义内容渲染示例 - AI 生图助手
@@ -145,21 +156,6 @@ const StyleOptions = [
   { content: '像素风', value: 'pixel' },
 ];
 
-// 默认初始化消息
-const mockData: ChatMessagesData[] = [
-  {
-    id: '123',
-    role: 'assistant',
-    content: [
-      {
-        type: 'text',
-        status: 'complete',
-        data: '欢迎使用 TDesign 智能生图助手，请先写下你的创意，可以试试上传参考图哦～',
-      },
-    ],
-  },
-];
-
 const senderRef = ref<any>(null);
 const ratio = ref<number>(0);
 const style = ref<string>('');
@@ -169,7 +165,7 @@ const inputValue = ref<string>('请为 TDesign 设计三张品牌宣传图，要
 
 // 聊天服务配置
 const chatServiceConfig: ChatServiceConfig = {
-  endpoint: 'https://1257786608-9i9j1kpa67.ap-guangzhou.tencentscf.com/sse/normal',
+  endpoint: 'http://localhost:3001/sse/normal',
   stream: true,
   onComplete: (aborted: boolean, params: RequestInit) => {
     console.log('onComplete', aborted, params);
@@ -177,21 +173,10 @@ const chatServiceConfig: ChatServiceConfig = {
   onError: (err: Error | Response) => {
     console.error('Chatservice Error:', err);
   },
-  onMessage: (chunk: SSEChunkData): AIMessageContent => {
-    const { type, ...rest } = chunk.data;
-    switch (type) {
-      case 'image':
-        return {
-          type: 'imageview',
-          status: 'complete',
-          data: JSON.parse(rest.content),
-        };
-      case 'text':
-        return {
-          type: 'markdown',
-          data: rest?.msg || '',
-        };
-    }
+  onMessage: (chunk: SSEChunkData): AIMessageContent | null => {
+    const formatChunk = fromAgentScopeSSEChunkToChatContent(chunk);
+    console.log(chunk.data.sequence_number, formatChunk);
+    return formatChunk;
   },
   onRequest: (innerParams: ChatRequestParams) => {
     const { prompt } = innerParams;
@@ -211,8 +196,10 @@ const chatServiceConfig: ChatServiceConfig = {
 };
 
 // 使用 useChat Hook
+const defaultMessages = fromAgentScopeHistoryToChatMessages(mockData);
+console.log('defaultMessages-------', defaultMessages);
 const { chatEngine, messages, status } = useChat({
-  defaultMessages: mockData,
+  defaultMessages,
   chatServiceConfig,
 });
 
